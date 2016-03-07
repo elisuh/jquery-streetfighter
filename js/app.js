@@ -25,7 +25,7 @@ $(document).ready(function(){
     })
     .keydown(function(){
   if (key.keyCode == '88') {
-      $('.ryu-ready').hide();
+      $('.ryu-still').hide();
       $('.ryu-cool').show();
  }
 });
