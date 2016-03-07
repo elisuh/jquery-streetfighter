@@ -22,7 +22,13 @@ $(document).ready(function(){
     .mouseup(function(){
         $('.ryu-throwing').hide();
         $('.ryu-ready').show();
-    });
+    })
+    .keydown(function(){
+  if (key.keyCode == '88') {
+      $('.ryu-ready').hide();
+      $('.ryu-cool').show();
+ }
+});
 
 });
 
