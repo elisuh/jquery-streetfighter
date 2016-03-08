@@ -23,11 +23,12 @@ $(document).ready(function(){
         $('.ryu-throwing').hide();
         $('.ryu-ready').show();
     })
+
   $(document).on('keydown', function(key) {
-    
     if (key.keyCode === 88) {
-      $('.ryu-still').toggle();
-      $('.ryu-ready').toggle();
+      $('.ryu-still').hide();
+      $('.ryu-ready').hide();
+      $('.ryu-cool').show();
     }
 });
 
