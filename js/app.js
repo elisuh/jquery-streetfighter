@@ -23,7 +23,7 @@ $(document).ready(function(){
         $('.ryu-throwing').hide();
         $('.ryu-ready').show();
     })
-    .keydown(function(){
+    .keydown(function(key){
   if (key.keyCode == '88') {
       $('.ryu-still').hide();
       $('.ryu-cool').show();
